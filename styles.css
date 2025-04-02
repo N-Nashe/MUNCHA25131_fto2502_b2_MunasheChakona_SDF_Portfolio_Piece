@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(176, 173, 173);
+    background-size: cover;
+}
+
+.greybackground {
+    text-align: center;
+    position: relative;
+}
+
+.background {
+    width: 60%;
+    position: relative;
+    border: 0.2rem solid black;
+    border-radius: 1em;
+}
+
+.intro-section {
+    position: absolute; 
+    width: 34%;
+    top: 7.5em; 
+    left: 54em; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.myimg {
+    position: absolute;
+    top: 1em;
+    width: 38%;
+    height: 30%;
+    border-radius: 10%;
+    left: 11em;
+}
+
+.lvl-section {
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 16em;
+    left: 20em;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+}
+
+.lvl-section ul {
+    list-style-type: none;
+    position: relative;
+    left: -7em;
+}
+
+#Beginner {
+    top: 3.1em;
+    position: relative;
+    left: -7.3em;
+}
+
+#intermediary {
+    top: 0.20rem;
+    position: relative;
+    left: 5em;
+}
+
+#Profeciency {
+    position: relative;
+    top: 2em;
+    left: -6em;
+}
+
+
+
