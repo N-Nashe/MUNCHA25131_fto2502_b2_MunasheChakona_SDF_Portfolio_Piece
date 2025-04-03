@@ -6,13 +6,13 @@ body {
 .greybackground {
     text-align: center;
     position: absolute;
-    height: 240%;
+    height: 210%;
     overflow: visible;
 }
 
 .background {
-    width: 66%;
-    height: 160% !important;
+    width: 62%;
+    height:auto;
     position: relative;
     border: 0.2rem solid black;
     border-radius: 1em;
@@ -108,9 +108,9 @@ body {
 .Projects {
     position: relative;
     border-radius: 0.8rem;
-    width: 55%;
-    height: 10%;
-    top: -160rem;
+    width: 68.7%;
+    height: 20%;
+    top: -78rem;
     padding: 1rem;
     background-color: #cde7dc;
     left: 19rem;
@@ -142,7 +142,7 @@ body {
     border-radius: 0.8rem;
     width: 50%;
     height: 90% !important;
-    top: -150rem;
+    top: -125rem;
     padding: 1rem;
     background-color: #cde7dc;
     left: 19rem;
@@ -171,6 +171,7 @@ body {
     gap: 1rem;
 
 
+
 }
 
 .education-section div h5,
@@ -183,6 +184,45 @@ body {
     margin: 0;
     padding-left: 1rem;
     list-style-type: disc;
+}
+
+.tools{
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    border-radius: 5px black;
+    background-color: white;
+    padding: 5%;
+    top: 30rem;
+    left:30rem;
+
+
+}
+
+.languages-div{
+    background-color: #E7F0EC;
+    display: column,2;
+    width:40%;
+    height:45%;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    border-radius: 2px black;
+    padding: 5%;
+
+    .languages-pill{
+        background-color: black;
+        color: white;
+        top: -1rem;
+        position: relative;
+        border-radius: 50px;
+        text-align: center; 
+        font-size: 0.2em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    
+
 }
 
 
