@@ -5,11 +5,14 @@ body {
 
 .greybackground {
     text-align: center;
-    position: relative;
+    position: absolute;
+    height: 240%;
+    overflow: visible;
 }
 
 .background {
-    width: 60%;
+    width: 66%;
+    height: 160% !important;
     position: relative;
     border: 0.2rem solid black;
     border-radius: 1em;
@@ -17,7 +20,7 @@ body {
 
 .intro-section {
     position: absolute; 
-    width: 34%;
+    width: 37%;
     top: 7.5em; 
     left: 52em; 
     transform: translate(-50%, -50%);
@@ -29,8 +32,8 @@ body {
 .myimg {
     position: absolute;
     top: 1em;
-    width: 38%;
-    height: 28%;
+    width: 144px;
+    height: 144px;
     border-radius: 10%;
     left: 10em;
 }
@@ -107,7 +110,7 @@ body {
     border-radius: 0.8rem;
     width: 55%;
     height: 10%;
-    top: -94rem;
+    top: -160rem;
     padding: 1rem;
     background-color: #cde7dc;
     left: 19rem;
@@ -115,11 +118,12 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
     gap: 30px;
-    
 
     #portfolio-website{
-        background-color: #4A8B70;
-    }
+
+        background-color: #4a8b70;
+        }
+
 }
 
 .Projects div {
@@ -131,36 +135,54 @@ body {
     font-size: small;
     color: rgb(0, 0, 0);
     width: 17%;
-    
-    
 }
 
 .education-section {
     position: relative;
     border-radius: 0.8rem;
-    width: 60%;
-    top: 40rem;
+    width: 50%;
+    height: 90% !important;
+    top: -150rem;
     padding: 1rem;
     background-color: #cde7dc;
-    left: 8rem;
+    left: 19rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.3rem;
 
     #Curro{
-        background-color: #4A8B70;
+
+    background-color: #4a8b70;
     }
 }
 
 .education-section div {
     position: relative;
     border-radius: 0.8rem;
-    width:65%;
+    width: 80%;
     padding: 1rem;
     background-color: #E7F0EC;
     font-size: small;
     color: rgb(0, 0, 0);
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+
+
+}
+
+.education-section div h5,
+.education-section div h3 {
+    margin: 0;
+    flex-direction: column;
+}
+
+.education-section div ul {
+    margin: 0;
+    padding-left: 1rem;
+    list-style-type: disc;
 }
 
 
