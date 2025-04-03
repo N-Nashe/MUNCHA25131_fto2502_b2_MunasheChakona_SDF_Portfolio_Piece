@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: 1em;
     width: 38%;
-    height: 30%;
+    height: 28%;
     border-radius: 10%;
     left: 10em;
 }
@@ -44,8 +44,6 @@ body {
     left: 20em;
     border-radius: 0.8rem;
     padding: 1.2rem;
-    
-    
 }
 
 .lvl-section ul {
@@ -71,11 +69,7 @@ body {
     position: relative;
     top: -0.4em;
     left: -6em;
-
-
 }
-
-
 
 .skills-section {
     position: absolute;
@@ -86,29 +80,86 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 0.8rem;
     padding: 1.2rem;
-
-    .skills-heading{
-        position: relative;
-        left: -5em;
-        top: -1.3em;
-    }
-
 }
 
-.skills-section div{
+.skills-section .skills-heading {
+    position: relative;
+    left: -5em;
+    top: -1.3em;
+}
+
+.skills-section div {
+    display: inline-block;
+    position: relative;
+    top: -1.6em; 
+    padding: 0.5em 1em; 
+    margin: 0.5em; 
+    background-color: #cde7dc; 
+    border-radius: 50px;
+    text-align: center; 
+    font-size: 0.9em;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Projects {
+    position: relative;
+    border-radius: 0.8rem;
+    width: 55%;
+    height: 10%;
+    top: -94rem;
+    padding: 1rem;
+    background-color: #cde7dc;
+    left: 19rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    gap: 30px;
     
-        display: inline-block;
-        position: relative;
-        top: -1.6em; 
-        padding: 0.5em 1em; 
-        margin: 0.5em; 
-        background-color: #cde7dc; 
-        border-radius: 50px;
-        text-align: center; 
-        font-size: 0.9em;
-        color: black
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        
+
+    #portfolio-website{
+        background-color: #4A8B70;
+    }
+}
+
+.Projects div {
+    position: relative;
+    border-radius: 0.8rem;
+    width: calc(50% - 1rem);
+    padding: 1rem;
+    background-color: #E7F0EC;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    width: 17%;
+    
+    
+}
+
+.education-section {
+    position: relative;
+    border-radius: 0.8rem;
+    width: 60%;
+    top: 40rem;
+    padding: 1rem;
+    background-color: #cde7dc;
+    left: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    #Curro{
+        background-color: #4A8B70;
+    }
+}
+
+.education-section div {
+    position: relative;
+    border-radius: 0.8rem;
+    width:65%;
+    padding: 1rem;
+    background-color: #E7F0EC;
+    font-size: small;
+    color: rgb(0, 0, 0);
     
 }
 
