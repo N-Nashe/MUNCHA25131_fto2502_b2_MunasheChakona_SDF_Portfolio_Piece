@@ -193,8 +193,9 @@ body {
     border-radius: 5px black;
     background-color: white;
     padding: 5%;
-    top: 30rem;
-    left:30rem;
+    top: 80rem;
+    left:50rem;
+    gap: 10px;
 
 
 }
@@ -222,6 +223,115 @@ body {
     }
 
 }
+
+.design-div{
+    background-color: #E7F0EC;
+    display: column,2;
+    width:40%;
+    height:30%;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    border-radius: 2px black;
+    padding: 5%;
+
+    .design-pill{
+        background-color: black;
+        color: white;
+        top: -1rem;
+        position: relative;
+        border-radius: 50px;
+        text-align: center; 
+        font-size: 0.2em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.tools-div{
+    background-color: #E7F0EC;
+    display: column,2;
+    width:40%;
+    height:30%;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    border-radius: 2px black;
+    padding: 5%;
+
+    .tools-pill{
+        background-color: black;
+        color: white;
+        top: -1rem;
+        position: relative;
+        border-radius: 50px;
+        text-align: center; 
+        font-size: 0.2em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.experience-section {
+    position: absolute;
+    border-radius: 0.8rem;
+    width: 30%;
+    height:20% !important;
+    top: 90rem;
+    padding: 1rem;
+    background-color: #cde7dc;
+    left: 19rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.experience-section div {
+    position: absolute;
+    border-radius: 0.8rem;
+    width: 80%;
+    top: 6em;
+    padding: 1rem;
+    background-color: #E7F0EC;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.experience-section div h5,
+.experience-section div h3 {
+    margin: 0;
+    flex-direction: column;
+}
+
+.experience-section div ul {
+    margin: 0;
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+.contact-section{
+    position: absolute;
+    border-radius: 0.8rem;
+    width: 40%;
+    top: 100em;
+    padding: 1rem;
+    background-color: #de4f0d;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+
+
 
 
 
