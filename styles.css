@@ -381,7 +381,7 @@ body {
     width: 70%;
     top: 6em;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #E7F0EC;
     font-size: small;
     color: rgb(0, 0, 0);
     display: flex;
@@ -420,6 +420,152 @@ body {
     gap: 1rem;
 
 }
+
+@media (max-width: 768px) {
+    body {
+      padding: 0;
+      width: 4000px !important;
+      height: 3000px;
+      margin: 0;
+      background-color: rgb(176, 173, 173);
+      
+    }
+  
+    .greybackground {
+      width: 600px;
+      height:4000px !important;
+      padding: 20px;
+      margin: 0 auto;
+    }
+  
+    .myimg {
+      width: 120px;
+      height: 130px;
+      margin-bottom: 20px;
+      position: relative;
+      left: 3.8rem;
+      top: -28em;
+      
+    }
+  
+    .intro-section {
+      width: 12.5rem;
+      height: 1%;
+      padding: 15px;
+      margin: 0 auto 20px auto;
+      left: 11.1rem;
+      top: -109em;
+      position: relative;
+      font-size: xx-small;
+    }
+  
+  .skills-section{
+    width:35em;
+    height:15em;
+    font-size: xx-small;
+    left: 16em;
+    top: 18.8em;
+  }
+
+}
+
+  .skills-section .d1,
+  .skills-section .d2,
+  .skills-section .d3,
+  .skills-section .d4{
+    width:7em;
+    font-size: xx-small;
+    
+
+  
+
+  .lvl-section{
+    font-size: xx-small;
+    width: 8rem;
+    top: 34em;
+    height: 6rem;
+    left: 13em;
+  }
+ .progress-bar-1,
+ .progress-bar-2,{
+    left: 40em;
+    
+}
+
+.progress-bar-3,
+ .progress-bar-4{
+    left: 15em;
+    
+ }
+
+
+
+  .Projects{
+    font-size: 0.2em !important;
+    width:16em;
+    position: absolute;
+    height:15em;
+    top: 20em;
+    
+
+  }
+  .portfolio-website{
+font-size: 0.2em;
+
+
+  }
+
+
+  .responsive-footer,
+  .insta-profile,
+  .portfolio-website,
+  .pets-website{
+    font-size: xx-small;
+    position: relative;
+    width: 10em;
+    height:10em;
+
+}
+.education-section{
+    font-size: 0.2em !important;
+    position: static;
+    width: 18em;
+    height: 6em;
+    top: 20em !important;
+}
+
+
+.experience-section {
+    width: 15em;
+    height: 14em !important;
+    top: 30em;
+
+
+}
+.experience-section div{
+    width: 17em;
+    height: 10em;
+    top: 3.6em;
+}
+.experience-section h4{
+top: 0em;
+position: absolute;
+
+}
+.experience-section ul{
+    width: 18em;
+    height:7em;
+    font-size: 0.53em;
+    position: absolute;
+    top: 7em;
+    left: 5em;
+
+
+}
+
+
+}
+
 
 
 
