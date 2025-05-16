@@ -9,11 +9,11 @@
 <body>
     <div class="grey-background">
         <!-- Introduction section -->
-        <section class="intro">
+        <section class="intro-section">
             <div class="profile-image">
                 <img src="Images/Nash.JPG" class="myimg" alt="Profile Image"> 
             </div>
-            <div class="intro-section">
+            <div class="intro-description">
                 <h4>Munashe Chakona</h4>
                 <p>
                     I am a passionate and dedicated software developer with a strong foundation in HTML and CSS.
@@ -24,67 +24,85 @@
 
         <!-- Proficiency and skills section -->
         <section class="prof-and-skills">
-            <div class="profeciency-section">
-                <h4 id="Profeciency">Proficiency</h4>
-                <h5 id="Beginner">Beginner</h5>
-                <h5 id="intermediary">Intermediary Advance*</h5>
-                <ul>
-                    <li>JavaScript</li> 
-                    <div class="progress-bar-1"></div>
-                    <li>React</li> 
-                    <div class="progress-bar-2"></div>
-                    <li>Node.js</li> 
-                    <div class="progress-bar-3"></div>
-                    <li>HTML + CSS</li> 
-                    <div class="progress-bar-4"></div>
-                </ul>
+            <div class="proficiency-and-skills">
+                <h3 id="Proficiency">Proficiency</h3>
+                <div class="proficiency-headers">
+                    <h4>Proficiency</h4>
+                    <h5>Beginner</h5>
+                    <h5>Intermediate Advance*</h5>
+                </div>
+
+                <div class="progress-bar-list">
+                    <ul>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>HTML+CSS</li>
+                    </ul>
+                    <ul>
+                        <progress class="progress-bar" value="70" max="100"></progress>
+                        <progress class="progress-bar" value="60" max="100"></progress>
+                        <progress class="progress-bar" value="50" max="100"></progress>
+                        <progress class="progress-bar" value="90" max="100"></progress>
+                    </ul>
+                </div>
             </div>
+
             <div class="skills">
                 <h4 id="Skills">Skills</h4>
-                <div class="d">Software Development</div>
-                <div class="d">Agile</div>
-                <div class="d">UI Design</div>
-                <div class="d">Problem Solving</div>
-                <div class="d">Git and Version Control</div>
-                <div class="d">Web Development</div>
-                <div class="d">Team Collaboration</div>
-                <div class="d">Functional Programming</div>
-                <div class="d">Rest APIs</div>
+                <div class="skills-grid">   
+                    <div class="d">Software Development</div>
+                    <div class="d">Agile</div>
+                    <div class="d">UI Design</div>
+                    <div class="d">Problem Solving</div>
+                    <div class="d">Git and Version Control</div>
+                    <div class="d">Web Development</div>
+                    <div class="d">Team Collaboration</div>
+                    <div class="d">Functional Programming</div>
+                    <div class="d">Rest APIs</div>
+                </div>
             </div>
         </section>
 
         <!-- Projects section -->
         <section class="projects-section">
+            <h3 id="projects-header">Projects</h3>
             <div class="Projects">
                 <div class="project 1">
-                    <h3 class="projects-header">Projects</h3>
-                    <h4>2025</h4> 
-                    <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    <div class="projects-heart-and-year">
+                        <h4>2025</h4> 
+                        <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    </div>
                     <h4>Portfolio Website</h4>
                     <p><strong>Brief</strong>: Developed a personal portfolio Website to showcase projects and skills</p>
                     <p><strong>Technologies</strong>: HTML, CSS</p>
                     <p><strong>Responsibilities</strong>: Designed and implemented the website, ensured responsiveness and accessibility.</p>
                 </div>
                 <div class="project 2">
-                    <h4>2025</h4>
-                    <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    <div class="projects-heart-and-year">
+                        <h4>2025</h4> 
+                        <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    </div>
                     <h4>Responsive Footer</h4>
                     <p><strong>Brief</strong>: Developed a responsive website footer</p>
                     <p><strong>Technologies</strong>: HTML, CSS</p>
                     <p><strong>Responsibilities</strong>: Designed and implemented the footer, ensured responsiveness and accessibility.</p>
                 </div>
                 <div class="project 3">
-                    <h4>2025</h4>
-                    <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    <div class="projects-heart-and-year">
+                        <h4>2025</h4>
+                        <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    </div>
                     <h4>Pets Instagram Profile</h4>
                     <p><strong>Brief</strong>: Developed an Instagram profile for pets using different programming languages</p>
                     <p><strong>Technologies</strong>: HTML, CSS</p>
                     <p><strong>Responsibilities</strong>: Designed and implemented the page, ensured responsiveness and accessibility.</p>
-                    
                 </div>
                 <div class="project 4">
-                    <h4>2025</h4>
-                    <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    <div class="projects-heart-and-year">
+                        <h4>2025</h4>
+                        <img src="Images/Vector.png" class="project-image" alt="Project Icon">
+                    </div>
                     <h4>Pets Website</h4>
                     <p><strong>Brief</strong>: Developed a website for pets using HTML and some CSS</p>
                     <p><strong>Technologies</strong>: HTML, CSS</p>
@@ -98,83 +116,86 @@
             <div class="education-section">
                 <h3>Education</h3>
                 <div class="school">
-                    <h5>2020-2022</h5>
-                    <h3>Curro</h3>
-                    <h5>High School</h5>
-                    <ul>
+                    <div class="headings">
+                        <h5>2020-2022</h5>
+                        <h3>Curro</h3>
+                        <h5>High School</h5>
+                    </div>
+                    <ul class="school-list">
                         <li>Focused on very basic Java in which we used the "bug" to draw images in the console with colors</li>
                         <li>Collaborated with peers on a personal project based on this</li>
                         <li>Gained hands-on experience with coding for the first time</li>
                     </ul>
                 </div>
                 <div class="school">
-                    <h5>2022-2024</h5>
-                    <h3>St. Patrick's CBC</h3>
-                    <h5>High School</h5>
-                    <ul>
+                    <div class="headings">
+                        <h5>2022-2024</h5>
+                        <h3>St. Patrick's CBC</h3>
+                        <h5>High School</h5>
+                    </div>
+                    <ul class="school-list">
                         <li>Focused on HTML, which helped me understand website structure and some styling through inline styles</li>
                         <li>Wrote exams on HTML as well as some practicals in which it would be practiced</li>
                         <li>Gained hands-on experience with HTML and its basic structure</li>
                     </ul>
                 </div>
                 <div class="school">
-                    <h5>Feb 2025 - August 2025 (pending)</h5>
-                    <h3>Codespace Academy</h3>
-                    <h5>Software Development Full-time</h5>
-                    <ul>
+                    <div class="headings">
+                        <h5>Feb 2025 - August 2025 (pending)</h5>
+                        <h3>Codespace Academy</h3>
+                        <h5>Software Development Full-time</h5>
+                    </div>
+                    <ul class="school-list">
                         <li>Focused on HTML, CSS, JavaScript, and other frameworks to build dynamic web applications</li>
                         <li>Collaborated with peers on personal projects, refining teamwork and best practices when coding</li>
                         <li>Gained hands-on experience with web technologies and development tools</li>
                     </ul>
                 </div>
             </div>    
-                
-                
-                <div class="tools">
-                    <h4 class="tools-heading">Tools</h4>
-                    <div class="languages-div">
-                        <div class="languages-pill">languages</div>
-                        <img src="Images/css-logo.png">
-                        <img src="Images/node-logo.png">
-                        <img src="Images/react-logo.png">
-                        <img src="Images/tailwind-logo.png">
-                        <img src="Images/Vector.png">
-                        <img src="Images/html-logo.png">
-                    </div>
-                    <div class="design-div">
-                        <div class="design-pill">design</div>
-                        <img src="Images/icons8-google 1.png">
-                        <img src="Images/icons8-microsoft 1.png">
-                        <img src="Images/logoCreativeCloud.png">
-                        <img src="Images/logoFigma.png">
-                    </div>
-                    <div class="tools-div">
-                        <div class="tools-pill">tools</div>
-                        <img src="Images/V-S.png">
-                        <img src="Images/icons8-git 1.png">
-                        <img src="Images/icons8-npm 1.png">
-                        <img src="Images/Github.png">
-                    </div>
+
+            <div class="tools">
+                <h4 class="tools-heading">Tools</h4>
+                <div class="languages-div">
+                    <div class="languages-pill">languages</div>
+                    <img src="Images/css-logo.png">
+                    <img src="Images/html-logo.png">
+                    <img src="Images/react-logo.png">
+                    <img src="Images/js-logo.png">
+                    <img src="Images/tailwind-logo.png">
+                    <img src="Images/node-logo.png">
                 </div>
-            
+                <div class="design-div">
+                    <div class="design-pill">design</div>
+                    <img src="Images/icons8-microsoft 1.png">
+                    <img src="Images/logoCreativeCloud.png">
+                    <img src="Images/logoFigma.png">
+                    <img src="Images/icons8-google 1.png">
+                </div>
+                <div class="tools-div">
+                    <div class="tools-pill">tools</div>
+                    <img src="Images/icons8-npm 1.png">
+                    <img src="Images/icons8-git 1.png">
+                    <img src="Images/Github.png">
+                    <img src="Images/V-S.png">
+                </div>
+            </div>
         </section>
 
         <!-- Experience section -->
-        <section>
-            <div class="experience-section">
-                <div class="experience">
-                    <h4>Experience</h4> 
+        <section class="experience-section">
+            <h4>Experience</h4> 
+            <div class="experience">
+                <div class="experience-info">
                     <h5>2020-2022</h5>
                     <h3>Volunteer</h3>
                     <h5>SPCA Boksburg</h5>
-
+                </div>
                 <div class="test">
                     <ul>
                         <li>Helped organise maintenance tools and areas used by the SPCA on a regular basis</li>
                         <li>Helped clean animal living spaces as well as working with other volunteers</li>
                         <li>While not seemingly related to technology this shows my collaboration skills which come in handy in the tech space</li>
                     </ul>
-                </div>
                 </div>
             </div>
         </section>
