@@ -43,7 +43,7 @@
 /* Proficiency and Skills Section */
 .prof-and-skills {
     display: flex;
-    gap: 8em;
+    gap: 4em;
     padding: 2em;
 }
 
@@ -74,21 +74,36 @@
     
 }
 
-#Proficiency{
-    justify-self: left;
-}
+
 
 .progress-bar{
-    background-color: #ac795e;
+    gap: 2em;
+    border-radius: 15px;
+    background-color: #4A8B70;
     
 }
 
 
+.progress-bar::-webkit-progress-value {
+    background-color: #4A8B70;
+    border-radius: 10px;
+}
 
 
+.progress-bar::-webkit-progress-bar {
+    background-color:  #fcfffe; 
+    border-radius: 10px;
+}
 
 
-
+.skills{
+    display: flex;
+    flex-direction:column;
+    gap:0.5em;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 100%;
+}
 
 .skills-grid {
     display: grid;
@@ -100,10 +115,12 @@
         "f g ."
         "h i .";
     gap: 1em;
-    padding: 2em;
+    padding: 0.5em;
     background-color: white;
     border-radius: 15px;
-    width:80%
+    width:90%
+    margin: 0 auto;
+    
 }
 
 .skills-grid .d:nth-child(1) { grid-area: a; }
@@ -120,8 +137,11 @@
     background-color: #bcd7cc;
     border-radius: 15px;
     text-align: center;
-    display: inline;
+    padding:0em;
+
 }
+
+
 
 /* Projects Section */
 .projects-section {
@@ -176,7 +196,7 @@
 #projects-header{
     position: relative;
     top: -0.6em;
-    left: 24.5em;
+    left: 22em;
 }
 /* Education and Tools Section */
 
@@ -232,34 +252,8 @@
     margin: 0 auto;
 }
 
-.languages-div {
-    
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #bcd7cc;
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 15px;
-    gap: 0.5em;
-    justify-items: center;
-    align-items: center;
-    padding: 2em 1em 1em;
-}
-
-.languages-pill,
-.design-pill,
-.tools-pill {
-    grid-column: 1 / -1;
-    background-color: black;
-    justify-self: center;
-    border-radius: 15px;
-    text-align: center;
-    color: white;
-    width: 60%;
-}
-
-.design-div {
-    display: grid;
+.tools-images{
+     display: grid;
     grid-template-columns: repeat(2, 2fr);
     background-color: #bcd7cc;
     width: 70%;
@@ -269,29 +263,85 @@
     justify-items: center;
     align-items: center;
     padding: 2em 1em 1em;
+
+
+}
+
+.languages-div {
+    
+     display:flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: #bcd7cc;
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.languages-pill{
+    
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 60%;
+    align-self: center;
+    
+
+}
+
+.design-div {
+    display:flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: #bcd7cc;
+    width: 80%;
+    border-radius:15px;
+    margin: 0 auto;
+   
+}
+
+.design-pill{
+    background-color: black;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 60%;
+    
 }
 
 .tools-div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #bcd7cc;
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
     gap: 0.5em;
-    justify-items: center;
-    align-items: center;
-    padding: 2em 1em 1em;
+    background-color: #bcd7cc;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
 }
+
+.tools-pill{
+    
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 60%;
+    align-self: center;
+
+
+} 
 
 /* Experience Section */
 .experience-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: white;
     border-radius: 15px;
     width: 85%;
-    padding: 2em;
+    padding: 0.8em;
     margin: 0 auto;
 }
 
@@ -302,12 +352,19 @@
     width: 85%;
     display: flex;
     flex-direction: row;
+    align-self: center;
 }
 
-.experience-info{
+.experience-sections{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    
+}
+
+.test{
+    align-content: center;
+
 }
 
 /* Contact Section */
