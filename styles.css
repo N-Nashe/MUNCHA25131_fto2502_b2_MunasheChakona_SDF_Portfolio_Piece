@@ -8,9 +8,6 @@
     padding: 2em;
     background-image: url('Images/background.png');
     border: 1px solid black;
-
-    
-
 }
 
 /*Introduction Section */
@@ -58,48 +55,39 @@
     gap: 1em;
     align-items: center;
     margin-left: 0em;
-
-   
 }
 
-.progress-bar-list{
+.progress-bar-list {
     display: flex;
     flex-direction: row;
-    gap: 0em;
+    gap: 1em;
 }
 
-.proficiency-headers{
-    display:grid;
+.proficiency-headers {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
 }
 
-
-
-.progress-bar{
-    gap: 2em;
+.progress-bar {
+    gap: 3em;
     border-radius: 15px;
     background-color: #4A8B70;
-    
 }
-
 
 .progress-bar::-webkit-progress-value {
     background-color: #4A8B70;
     border-radius: 10px;
 }
 
-
 .progress-bar::-webkit-progress-bar {
-    background-color:  #fcfffe; 
+    background-color: #fcfffe;
     border-radius: 10px;
 }
 
-
-.skills{
+.skills {
     display: flex;
-    flex-direction:column;
-    gap:0.5em;
+    flex-direction: column;
+    gap: 0.5em;
     border-radius: 15px;
     background-color: #ffffff;
     width: 100%;
@@ -118,9 +106,8 @@
     padding: 0.5em;
     background-color: white;
     border-radius: 15px;
-    width:90%
+    width: 90%;
     margin: 0 auto;
-    
 }
 
 .skills-grid .d:nth-child(1) { grid-area: a; }
@@ -137,22 +124,18 @@
     background-color: #bcd7cc;
     border-radius: 15px;
     text-align: center;
-    padding:0em;
-
+    padding: 0em;
 }
-
-
 
 /* Projects Section */
 .projects-section {
     display: flex;
-    margin-right: 4em;;
+    margin-right: 4em;
     border-radius: 15px;
-    width:100%;
+    width: 100%;
 }
 
-
-.Projects{
+.Projects {
     background-color: white;
     color: black;
     display: flex;
@@ -164,49 +147,42 @@
     padding: 2em;
     border-radius: 15px;
     justify-content: space-evenly;
-
 }
 
-.project-image{
+.project-image {
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    float: right;
 }
 
-.projects-heart-and-year{
+.projects-heart-and-year {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .project {
-    
     background-color: #bcd7cc;
     border-radius: 15px;
     padding: 0.5em;
     width: 100%;
-   
-   
 }
 
-.project-image {
-    float: right;
-}
-
-#projects-header{
+#projects-header {
     position: relative;
     top: -0.6em;
     left: 22em;
 }
-/* Education and Tools Section */
 
+/* Education and Tools Section */
 .education-and-tools {
     display: flex;
     gap: 2em;
 }
 
 .education-section {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 0.5em;
     background-color: white;
@@ -225,18 +201,15 @@
     width: 95%;
 }
 
-.headings{
+.headings {
     display: flex;
     flex-direction: column;
     gap: none;
-    
 }
 
-.school-list{
+.school-list {
     align-content: center;
-
 }
-
 
 .tools {
     background-color: white;
@@ -252,8 +225,8 @@
     margin: 0 auto;
 }
 
-.tools-images{
-     display: grid;
+.tools-images {
+    display: grid;
     grid-template-columns: repeat(2, 2fr);
     background-color: #bcd7cc;
     width: 70%;
@@ -263,13 +236,10 @@
     justify-items: center;
     align-items: center;
     padding: 2em 1em 1em;
-
-
 }
 
 .languages-div {
-    
-     display:flex;
+    display: flex;
     flex-direction: column;
     gap: 0.5em;
     background-color: #bcd7cc;
@@ -278,41 +248,36 @@
     margin: 0 auto;
 }
 
-.languages-pill{
-    
+.languages-pill {
     background-color: black;
     border-radius: 15px;
     text-align: center;
     color: white;
     width: 60%;
     align-self: center;
-    
-
 }
 
 .design-div {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 0.5em;
     background-color: #bcd7cc;
     width: 80%;
-    border-radius:15px;
+    border-radius: 15px;
     margin: 0 auto;
-   
 }
 
-.design-pill{
+.design-pill {
     background-color: black;
     align-self: center;
     border-radius: 15px;
     text-align: center;
     color: white;
     width: 60%;
-    
 }
 
 .tools-div {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 0.5em;
     background-color: #bcd7cc;
@@ -321,17 +286,14 @@
     margin: 0 auto;
 }
 
-.tools-pill{
-    
+.tools-pill {
     background-color: black;
     border-radius: 15px;
     text-align: center;
     color: white;
     width: 60%;
     align-self: center;
-
-
-} 
+}
 
 /* Experience Section */
 .experience-section {
@@ -355,16 +317,14 @@
     align-self: center;
 }
 
-.experience-sections{
+.experience-sections {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    
 }
 
-.test{
+.test {
     align-content: center;
-
 }
 
 /* Contact Section */
