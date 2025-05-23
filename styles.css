@@ -10,7 +10,7 @@
     border: 1px solid black;
 }
 
-/*Introduction Section */
+/* Introduction Section */
 .intro-section {
     display: flex;
     gap: 8em;
@@ -129,64 +129,44 @@
 
 /* Projects Section */
 .projects-section {
-    display: flex;
-    margin-right: 4em;
-    border-radius: 15px;
+    background-color: white;
     width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .Projects {
-    background-color: white;
-    color: black;
     display: flex;
     flex-direction: row;
-    gap: 2em;
-    width: 80%;
-    margin-left: 0em;
-    right: 2em;
-    padding: 2em;
-    border-radius: 15px;
-    justify-content: space-evenly;
-
-}
-
-
-.project-image {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    float: right;
-}
-
-.projects-heart-and-year {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 1em;
+    padding: 0.5em;
+    text-align: left;
 }
 
 .project {
     background-color: #bcd7cc;
     border-radius: 15px;
-    padding: 0.5em;
-    width: 100%;
-
+    width: 50%;
 }
 
-.project-1{
+.project-1 {
     background-color: #4A8B70;
     border-radius: 15px;
-    padding: 0.5em;
-    width: 100%;
-    
+    width: 50%;
 }
 
-#projects-header {
-    position: relative;
-    top: -0.6em;
-    left: 22em;
+.projects-heart-and-year {
+    display: flex;
+    justify-content: space-between;
 }
 
-
+.project-image {
+    width: 15%;
+    height: auto;
+    object-fit: contain;
+    float: right;
+}
 
 /* Education and Tools Section */
 .education-and-tools {
@@ -224,7 +204,7 @@
     align-content: center;
 }
 
-.school-1{
+.school-1 {
     display: flex;
     flex-direction: row;
     background-color: #4A8B70;
@@ -233,7 +213,7 @@
     width: 95%;
 }
 
-.school-list-1{
+.school-list-1 {
     align-content: center;
 }
 
@@ -242,9 +222,16 @@
     width: 20%;
     padding: 1em;
     border-radius: 15px;
-    gap: 3em;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    gap: 2em;
+}
+
+.divs {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
 }
 
 .tools-heading {
@@ -365,300 +352,957 @@
 }
 
 /* Responsive Styles */
-
 @media (max-width: 1024px) {
     .intro-section {
-    display: flex;
-    gap: 5em;
-    margin-top: 1em;
+        display: flex;
+        gap: 5em;
+        margin-top: 1em;
+    }
+
+    .profile-image {
+        width: 20%;
+    }
+
+    .myimg {
+        width: 100%;
+        height: auto;
+        margin-left: 2.5em;
+        border-radius: 10px;
+    }
+
+    .intro-description {
+        background-color: white;
+        color: black;
+        width: 70%;
+        padding: 0.5em;
+        padding-bottom: 0em;
+        border-radius: 15px;
+        font-size: 0.7em;
+    }
+
+    /* Responsive Proficiency and Skills Section */
+    .prof-and-skills {
+        display: flex;
+        gap: 4em;
+        padding: 2em;
+        flex-direction: column;
+    }
+
+    .proficiency-and-skills {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: 80%;
+        padding: 0.5em;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .progress-bar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .proficiency-headers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .progress-bar {
+        gap: 3em;
+        border-radius: 15px;
+        background-color: #4A8B70;
+    }
+
+    .progress-bar::-webkit-progress-value {
+        background-color: #4A8B70;
+        border-radius: 10px;
+    }
+
+    .progress-bar::-webkit-progress-bar {
+        background-color: #fcfffe;
+        border-radius: 10px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 15px;
+        background-color: #ffffff;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Responsive Projects Section */
+    .projects-section {
+        background-color: white;
+        width: 100%;
+        border-radius: 15px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .Projects {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        padding: 0.5em;
+        text-align: left;
+    }
+
+    .project {
+        background-color: #bcd7cc;
+        border-radius: 15px;
+        width: 50%;
+    }
+
+    .project-1 {
+        background-color: #4A8B70;
+        border-radius: 15px;
+        width: 50%;
+    }
+
+    .projects-heart-and-year {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-image {
+        width: 15%;
+        height: auto;
+        object-fit: contain;
+        float: right;
+    }
+
+    /* Responsive Education and Tools Section */
+    .education-and-tools {
+        display: flex;
+        gap: 2em;
+        flex-direction: column;
+    }
+
+    .education-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: white;
+        width: 80%;
+        padding: 0.5em;
+        padding-right: 0em;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .school {
+        display: flex;
+        flex-direction: row;
+        background-color: #bcd7cc;
+        border-radius: 15px;
+        padding: 0.5em;
+        width: 95%;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;
+        gap: none;
+    }
+
+    .school-list {
+        align-content: center;
+    }
+
+    .school-1 {
+        display: flex;
+        flex-direction: row;
+        background-color: #4A8B70;
+        border-radius: 15px;
+        padding: 0.5em;
+        width: 95%;
+    }
+
+    .school-list-1 {
+        align-content: center;
+    }
+
+    .tools {
+        background-color: white;
+        width: 95%;
+        padding: 1em;
+        border-radius: 15px;
+        gap: 0em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .divs {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+    }
+
+    .tools-heading {
+        margin: 0 auto;
+    }
+
+    .tools-images {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        background-color: #bcd7cc;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 15px;
+        gap: 0.5em;
+        justify-items: center;
+        align-items: center;
+        padding: 2em 1em 1em;
+    }
+
+    .languages-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .languages-pill {
+        background-color: black;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+        align-self: center;
+    }
+
+    .design-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .design-pill {
+        background-color: black;
+        align-self: center;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+    }
+
+    .tools-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .tools-pill {
+        background-color: black;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+        align-self: center;
+    }
+
+    /* Responsive Proficiency and Skills Section */
+    .prof-and-skills {
+        display: flex;
+        gap: 4em;
+        padding: 2em;
+        flex-direction: column;
+    }
+
+    .proficiency-and-skills {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .progress-bar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .proficiency-headers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .progress-bar {
+        gap: 3em;
+        border-radius: 15px;
+        background-color: #4A8B70;
+    }
+
+    .progress-bar::-webkit-progress-value {
+        background-color: #4A8B70;
+        border-radius: 10px;
+    }
+
+    .progress-bar::-webkit-progress-bar {
+        background-color: #fcfffe;
+        border-radius: 10px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 15px;
+        background-color: #ffffff;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
-.profile-image {
-    width: 18%;
+@media (max-width: 850px) {
+    .grey-background {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: clamp(1em, 3vw, 5em);
+        padding: 2em;
+        background-image: url('Images/background.png');
+        border: 1px solid black;
+    }
+
+    .projects-section {
+        background-color: white;
+        width: 100%;
+        border-radius: 15px;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 0.5em;
+    }
+
+    .project {
+        background-color: #bcd7cc;
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .project-1 {
+        background-color: #4A8B70;
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .projects-heart-and-year {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-image {
+        width: 15%;
+        height: auto;
+        object-fit: contain;
+        float: right;
+    }
+
+    /* Responsive Education and Tools Section */
+    .education-and-tools {
+        display: flex;
+        gap: 2em;
+        flex-direction: column;
+    }
+
+    .education-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: white;
+        width: 90%;
+        padding: 1em;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .school {
+        display: flex;
+        flex-direction: row;
+        background-color: #bcd7cc;
+        border-radius: 15px;
+        padding: 0.5em;
+        width: 95%;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;
+        gap: none;
+    }
+
+    .school-list {
+        align-content: center;
+    }
+
+    .school-1 {
+        display: flex;
+        flex-direction: row;
+        background-color: #4A8B70;
+        border-radius: 15px;
+        padding: 0.5em;
+        width: 95%;
+    }
+
+    .school-list-1 {
+        align-content: center;
+    }
+
+    .tools {
+        background-color: white;
+        width: 95%;
+        padding: 1em;
+        border-radius: 15px;
+        gap: 0em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .divs {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .tools-heading {
+        margin: 0 auto;
+    }
+
+    .tools-images {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        background-color: #bcd7cc;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 15px;
+        gap: 0.5em;
+        justify-items: center;
+        align-items: center;
+        padding: 2em 1em 1em;
+    }
+
+    .languages-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .languages-pill {
+        background-color: black;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+        align-self: center;
+    }
+
+    .design-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .design-pill {
+        background-color: black;
+        align-self: center;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+    }
+
+    .tools-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .tools-pill {
+        background-color: black;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+        align-self: center;
+    }
+
+    /* Responsive Proficiency and Skills Section */
+    .prof-and-skills {
+        display: flex;
+        gap: 4em;
+        padding: 2em;
+        flex-direction: column;
+    }
+
+    .proficiency-and-skills {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: 80%;
+        padding: 0.5em;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .progress-bar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .proficiency-headers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .progress-bar {
+        gap: 3em;
+        border-radius: 15px;
+        background-color: #4A8B70;
+    }
+
+    .progress-bar::-webkit-progress-value {
+        background-color: #4A8B70;
+        border-radius: 10px;
+    }
+
+    .progress-bar::-webkit-progress-bar {
+        background-color: #fcfffe;
+        border-radius: 10px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 15px;
+        background-color: #ffffff;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
-.myimg {
-    width: 100%;
-    height: auto;
-    margin-left: 2.5em;
-    border-radius: 10px;
+@media (max-width: 530px) {
+    /* General Styles */
+    .grey-background {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: clamp(1em, 2vw, 3em);
+        padding: 2em;
+        background-image: url('Images/background.png');
+        border: 1px solid black;
+    }
+
+    .intro-section {
+        display: flex;
+        gap: 10em;
+        margin-top: 1em;
+    }
+
+    .profile-image {
+        width: 40%;
+        height: auto;
+    }
+
+    .myimg {
+        width: 200%;
+        height: auto;
+        margin-left: 2.5em;
+        border-radius: 10px;
+    }
+
+    .intro-description {
+        background-color: white;
+        color: black;
+        width: 90%;
+        padding: 0.5em;
+        padding-bottom: 0em;
+        border-radius: 15px;
+        font-size: 0.7em;
+    }
+
+    /* Responsive Proficiency and Skills Section */
+    .prof-and-skills {
+        display: flex;
+        gap: 4em;
+        padding: 0.5em;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .proficiency-and-skills {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: 90%;
+        padding: 0.5em;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .progress-bar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .proficiency-headers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .progress-bar {
+        gap: 3em;
+        border-radius: 15px;
+        background-color: #4A8B70;
+    }
+
+    .progress-bar::-webkit-progress-value {
+        background-color: #4A8B70;
+        border-radius: 10px;
+    }
+
+    .progress-bar::-webkit-progress-bar {
+        background-color: #fcfffe;
+        border-radius: 10px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 15px;
+        background-color: #ffffff;
+        width: 90%;
+        margin: 0 auto;
+        padding: 1em;
+    }
+
+    .projects-section {
+        background-color: white;
+        width: 90%;
+        border-radius: 15px;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 1em;
+    }
+
+    .project {
+        background-color: #bcd7cc;
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .project-1 {
+        background-color: #4A8B70;
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .projects-heart-and-year {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-image {
+        width: 15%;
+        height: auto;
+        object-fit: contain;
+        float: right;
+    }
+
+    /* Responsive Education and Tools Section */
+    .education-and-tools {
+        display: flex;
+        gap: 2em;
+        flex-direction: column;
+    }
+
+    .education-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: white;
+        width: 90%;
+        padding: 1em;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .school {
+        display: flex;
+        flex-direction: row;
+        background-color: #bcd7cc;
+        border-radius: 15px;
+        padding: 0.5em;
+        width: 95%;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;
+        gap: none;
+    }
+
+    .school-list {
+        align-content: center;
+    }
+
+    .school-1 {
+        display: flex;
+        flex-direction: row;
+        background-color: #4A8B70;
+        border-radius: 15px;
+        padding: 0.5em;
+        width: 95%;
+    }
+
+    .school-list-1 {
+        align-content: center;
+    }
+
+    .tools {
+        background-color: white;
+        width: 95%;
+        padding: 1em;
+        border-radius: 15px;
+        gap: 0em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-right: 1em;
+        min-width: 0;
+    }
+
+    .divs {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        min-width: 0;
+    }
+
+    .tools-heading {
+        margin: 0 auto;
+    }
+
+    .tools-images {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        background-color: #bcd7cc;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 15px;
+        gap: 0.5em;
+        justify-items: center;
+        align-items: center;
+        padding: 2em 1em 1em;
+        min-width: 0;
+        justify-content: center;
+    }
+
+    .languages-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 50%;
+        border-radius: 15px;
+        margin: 0 auto;
+        min-width: 0;
+    }
+
+    .languages-pill {
+        background-color: black;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 70%;
+        align-self: center;
+    }
+
+    .design-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 50%;
+        border-radius: 15px;
+        margin: 0 auto;
+        min-width: 0;
+    }
+
+    .design-pill {
+        background-color: black;
+        align-self: center;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+    }
+
+    .tools-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #bcd7cc;
+        width: 50%;
+        border-radius: 15px;
+        margin: 0 auto;
+        min-width: 0;
+    }
+
+    .tools-pill {
+        background-color: black;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        width: 60%;
+        align-self: center;
+    }
 }
 
-.intro-description {
-    background-color: white;
-    color: black;
-    width: 70%;
-    padding: 0.5em;
-    padding-bottom: 0em;
-    border-radius: 15px;
-    font-size: x-small;
+@media (max-width: 400px) {
+    .intro-section {
+        display: flex;
+        gap: 10em;
+        margin-top: 1em;
+    }
+
+    .profile-image {
+        width: 40%;
+        height: auto;
+    }
+
+    .myimg {
+        width: 290%;
+        height: auto;
+        margin-left: 2.5em;
+        border-radius: 10px;
+    }
+
+    .intro-description {
+        background-color: white;
+        color: black;
+        width: 90%;
+        padding: 0.5em;
+        padding-bottom: 0em;
+        border-radius: 15px;
+        font-size: 0.7em;
+    }
+
+    /* Responsive Proficiency and Skills Section */
+    .prof-and-skills {
+        display: flex;
+        gap: 4em;
+        padding: 2em;
+        flex-direction: column;
+    }
+
+    .proficiency-and-skills {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 15px;
+        background-color: #ffffff;
+        width: 90%;
+        margin: 0 auto;
+        padding: 1em;
+    }
+
+    .progress-bar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 0em;
+    }
 }
 
-/* Proficiency and Skills Section */
-.prof-and-skills {
-    display: flex;
-    gap: 4em;
-    padding: 2em;
-    flex-direction: column;
-}
-
-.proficiency-and-skills {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    width:80%;
-    padding: 0.5em;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 1em;
-}
-
-.progress-bar-list {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-
-.proficiency-headers {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.progress-bar {
-    gap: 3em;
-    border-radius: 15px;
-    background-color: #4A8B70;
-}
-
-.progress-bar::-webkit-progress-value {
-    background-color: #4A8B70;
-    border-radius: 10px;
-}
-
-.progress-bar::-webkit-progress-bar {
-    background-color: #fcfffe;
-    border-radius: 10px;
-}
-
-.skills {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    border-radius: 15px;
-    background-color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Projects Section */
-.projects-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    border-radius: 15px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-   
-   
-}
-
-.Projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    width:90%;
-    margin: 0 auto;
-    
-    margin-right: 10em;
-
-}
-
-
-.project-image {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    float: right;
-}
-
-.projects-heart-and-year {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.project {
-    background-color: #bcd7cc;
-    border-radius: 15px;
-    padding: 0.5em;
-    width: 100%;
-
-}
-
-.project-1{
-    background-color: #4A8B70;
-    border-radius: 15px;
-    padding: 0.5em;
-    width: 100%;
-    
-}
-
-#projects-header {
-    position: relative;
-    top: -0.6em;
-    left: 16em;
-}
-
-/* Education and Tools Section */
-.education-and-tools {
-    display: flex;
-    gap: 2em;
-    flex-direction: column;
-}
-
-.education-section {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    background-color: white;
-    width: 80%;
-    padding: 0.5em;
-    padding-right: 0em;
-    border-radius: 15px;
-    margin: 0 auto;
-}
-
-.school {
-    display: flex;
-    flex-direction: row;
-    background-color: #bcd7cc;
-    border-radius: 15px;
-    padding: 0.5em;
-    width: 95%;
-}
-
-.headings {
-    display: flex;
-    flex-direction: column;
-    gap: none;
-}
-
-.school-list {
-    align-content: center;
-}
-
-.school-1{
-    display: flex;
-    flex-direction: row;
-    background-color: #4A8B70;
-    border-radius: 15px;
-    padding: 0.5em;
-    width: 95%;
-}
-
-.school-list-1{
-    align-content: center;
-}
-
-.tools {
-    background-color: white;
-    width: 90%;
-    padding: 1em;
-    border-radius: 15px;
-    gap: 3em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
-}
-
-.tools-heading {
-    margin: 0 auto;
-}
-
-.tools-images {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    background-color: #bcd7cc;
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 15px;
-    gap: 0.5em;
-    justify-items: center;
-    align-items: center;
-    padding: 2em 1em 1em;
-}
-
-.languages-div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    background-color: #bcd7cc;
-    width: 90%;
-    border-radius: 15px;
-    margin: 0 auto;
-}
-
-.languages-pill {
-    background-color: black;
-    border-radius: 15px;
-    text-align: center;
-    color: white;
-    width: 60%;
-    align-self: center;
-}
-
-.design-div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    background-color: #bcd7cc;
-    width: 80%;
-    border-radius: 15px;
-    margin: 0 auto;
-}
-
-.design-pill {
-    background-color: black;
-    align-self: center;
-    border-radius: 15px;
-    text-align: center;
-    color: white;
-    width: 60%;
-}
-
-.tools-div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    background-color: #bcd7cc;
-    width: 80%;
-    border-radius: 15px;
-    margin: 0 auto;
-}
-
-.tools-pill {
-    background-color: black;
-    border-radius: 15px;
-    text-align: center;
-    color: white;
-    width: 60%;
-    align-self: center;
-}
-
-
-
-}
-  
-
-@media (max-width: 600px) {
-
-}
-  
 
 
 
