@@ -1413,6 +1413,7 @@
         background-color: white;
         color: black;
         width: 90%;
+        height:20%;
         padding: 0.5em;
         padding-bottom: 0em;
         border-radius: 15px;
@@ -1430,8 +1431,8 @@
     .proficiency-and-skills {
         background-color: rgb(255, 255, 255);
         color: black;
-        width: 100%;
-        padding: 0.5em;
+        width: 105%;
+        padding: 0.2em;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
@@ -1449,7 +1450,8 @@
         background-color: #ffffff;
         width: 100%;
         margin: 0 auto;
-        padding: 1em;
+        padding:1em;
+       
     }
 
     .progress-bar-list {
